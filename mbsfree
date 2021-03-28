@@ -1,14 +1,14 @@
 #!/bin/bash
-clear
 cd $HOME
-cd $PREFIX/bin/
+clear
+clear
 echo -e "\033[01;31m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 ██░▄▀▄░██░▄▄▀██░▄▄▄░██░▄▄▄██░▄▄▀██░▄▄▄██░▄▄▄██
 ██░█░█░██░▄▄▀██▄▄▄▀▀██░▄▄███░▀▀▄██░▄▄▄██░▄▄▄██
 ██░███░██░▀▀░██░▀▀▀░██░█████░██░██░▀▀▀██░▀▀▀██
 ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀\033[0m"
-sleep 1
-echo -e "BAIXANDO RECURSOS/ATUALIZAÇÕES"
+sleep 2
+echo -e "CARREGANDO"
 sleep 1
 echo -e "╔═════════════╗
 |████
@@ -24,18 +24,8 @@ sleep 1
 echo -e "╔═════════════╗
 |█████████████ TUDO PRONTO
 ╚═════════════╝"
-sleep 1
-rm mbsfree1 > /dev/null 2>&1
-curl -sO https://raw.githubusercontent.com/medrosoo/mb/main/mbsfree1 && chmod 777 mbsfree1 > /dev/null 2>&1
-rm mbsfree2 > /dev/null 2>&1
-curl -sO https://raw.githubusercontent.com/medrosoo/mb/main/mbsfree2 && chmod 777 mbsfree2 > /dev/null 2>&1
-rm mbsfree > /dev/null 2>&1
-curl -sO https://raw.githubusercontent.com/medrosoo/mb/main/mbsfree && chmod 777 mbsfree > /dev/null 2>&1
-cd $HOME
-rm mbfree > /dev/null 2>&1
-clear
-mbsfree
-cd $HOME
+sleep 2
+echo -e "carregamento fake só pra ficar mais bunitu kk"
 clear
 echo -e "\033[01;31m▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 ██░▄▀▄░██░▄▄▀██░▄▄▄░██░▄▄▄██░▄▄▀██░▄▄▄██░▄▄▄██
