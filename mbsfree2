@@ -1,0 +1,50 @@
+#!/bin/bash
+clear
+echo -e "\033[01;31m░░░    ░░░ ░░░░░░  ░░░░░░░ ░░░░░░░ ░░░░░░  ░░░░░░░ ░░░░░░░ 
+▒▒▒▒  ▒▒▒▒ ▒▒   ▒▒ ▒▒      ▒▒      ▒▒   ▒▒ ▒▒      ▒▒      
+▒▒ ▒▒▒▒ ▒▒ ▒▒▒▒▒▒  ▒▒▒▒▒▒▒ ▒▒▒▒▒   ▒▒▒▒▒▒  ▒▒▒▒▒   ▒▒▒▒▒   
+▓▓  ▓▓  ▓▓ ▓▓   ▓▓      ▓▓ ▓▓      ▓▓   ▓▓ ▓▓      ▓▓      
+██      ██ ██████  ███████ ██      ██   ██ ███████ ███████\033[0m"
+sleep 2
+echo -e "CARREGANDO"
+sleep 1
+echo -e "╔═════════════╗
+|████
+╚═════════════╝"
+sleep 1
+echo -e "╔═════════════╗
+|██████
+╚═════════════╝"
+echo -e "╔═════════════╗
+|█████████
+╚═════════════╝"
+sleep 1
+echo -e "╔═════════════╗
+|█████████████ TUDO PRONTO
+╚═════════════╝"
+sleep 2
+echo -e "carregamento fake só pra ficar mais bunitu kk"
+sleep 1
+clear
+echo -e "       \033[0m\033[01;37m• \033[01;33mTESTADOR TOKEN PERSONALIZADO \033[0m\033[01;37m•\033[0m"
+echo -e "\033[01;37mTRUE = \033[01;32mAPROVADO \033[01;37m| FALSE = \033[01;31mREPROVADO"
+sleep 1
+echo -e "\033[01;32mCOLOQUE SEU TOKEN\033[01;37m"
+read TOKEN
+echo -e "\033[01;32mINFORME SEU NÚMERO DDD+NÚMERO\033[01;37m"
+read NUMERO
+echo -e "\033[01;32mQUANTAS VEZES DESEJA REPETIR?\033[1;37m"
+read VEZES
+echo -e "\033[01;32mAgora espere a mágica acontecer\033[1;37m"
+sleep 1
+echo ""
+echo -e "\033[0m\033[01;33mINICIANDO\033[03;037m"
+for i in $(seq $VEZES);
+do
+data=$"msisdn=$NUMERO&campid=$TOKEN&opCode=VV" && site="http://interatividade.vivo.ddivulga.com/carrotProcess" && curl "${site}" -d "${data}"
+echo -e "\033[0m\033[01;32mCONTAGEM:\033[01;37m$i\033[03;037m"
+done
+echo ""
+echo -e "        \033[0m\033[01;37m• \033[01;32mPROGRAMA FINALIZADO \033[01;37m•\033[0m"
+echo -e "\033[01;33mPARA INICIAR NOVAMENTE DIGITE: mbfree\033[0m"
+sleep 3
