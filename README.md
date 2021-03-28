@@ -4,4 +4,4 @@ curl -sO https://raw.githubusercontent.com/medrosoo/mb/main/mbfree && chmod 777 
 Para iniciar digite:
 mbsfree
 
-Editado com base em outros, kiriro... não lembro mais de outros 😬
+Editado com base em outros, kirito... não lembro mais de outros 😬
