@@ -27,5 +27,4 @@ echo -e "\033[0m\033[01;32mCONTAGEM:\033[01;37m$i\033[03;037m"
 done
 echo ""
 echo -e "        \033[0m\033[01;37m• \033[01;32mPROGRAMA FINALIZADO \033[01;37m•\033[0m"
-echo -e "\033[01;33mPARA INICIAR NOVAMENTE DIGITE: mbsfree\033[0m"
 sleep 3
